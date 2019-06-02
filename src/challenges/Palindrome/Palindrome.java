@@ -1,4 +1,4 @@
-package challenges;
+package challenges.Palindrome;
 /*
 * Learned how to:
  *   - use StringBuilder
