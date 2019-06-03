@@ -12,12 +12,7 @@ package challenges.Palindrome;
 public class Palindrome {
 
     public boolean reverseWord(String word) {
-        StringBuilder builder = new StringBuilder();
-        String[] letters = word.split("");
-        for (int i = 0; i < letters.length; i++) {
-            builder.append(letters[letters.length - (i+1)]);
-        }
-        return builder.toString().equalsIgnoreCase(word);
+        return new ReverseWord(word).isPalindrome();
     }
 
 

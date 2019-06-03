@@ -1,6 +1,5 @@
-package challenges;
+package challenges.Palindrome;
 
-import challenges.Palindrome.Palindrome;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -37,7 +36,6 @@ class PalindromeTest {
     @Nested
     @DisplayName("ss")
     class ReversePhrase {
-
         @Test
         void shouldReturnTrue() {
             Palindrome palindrome = new Palindrome();
