@@ -1,4 +1,4 @@
-package challenges.Palindrome;
+package challenges.palindrome;
 /*
 * Learned how to:
  *   - use StringBuilder
@@ -18,7 +18,8 @@ public class Palindrome {
 
     public boolean reverseNumber(int number) {
         //todo: reverse numbers
-        return true;
+        String s = new Integer(number).toString();
+        return reverseWord(s);
     }
 
     public boolean reversePhrase(String phrase) {

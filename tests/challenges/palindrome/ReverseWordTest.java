@@ -1,4 +1,4 @@
-package challenges.Palindrome;
+package challenges.palindrome;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -16,7 +16,7 @@ class ReverseWordTest {
     @BeforeEach
     void getReversedWord() {
         listOfWords = new ArrayList<>();
-//         Palindrome words
+//         palindrome words
         listOfWords.add("Anna");
         listOfWords.add("Civic");
         listOfWords.add("Level");
@@ -26,7 +26,7 @@ class ReverseWordTest {
         listOfWords.add("Sagas");
         listOfWords.add("Rotator");
         listOfWords.add("Tenet");
-//        Not Palindrome words
+//        Not palindrome words
         listOfWords.add("Accommodate");
         listOfWords.add("Weird");
         listOfWords.add("handkerchief");

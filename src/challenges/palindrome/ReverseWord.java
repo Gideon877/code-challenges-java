@@ -1,4 +1,4 @@
-package challenges.Palindrome;
+package challenges.palindrome;
 
 public class ReverseWord {
 

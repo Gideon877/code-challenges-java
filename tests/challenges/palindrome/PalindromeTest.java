@@ -1,4 +1,4 @@
-package challenges.Palindrome;
+package challenges.palindrome;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
@@ -56,7 +56,7 @@ class PalindromeTest {
     }
 
     @Nested
-    @DisplayName("ss")
+//    @DisplayName("ss")
     @Disabled("Method need implementation")
     class ReverseNumber {
 

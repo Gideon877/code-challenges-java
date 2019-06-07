@@ -11,6 +11,7 @@ class ConsecutiveLettersTest {
     void shouldReturnTrue() {
         assertEquals(true, consecutiveLetters.solve("abc"));
         assertEquals(true, consecutiveLetters.solve("dabc"));
+        assertEquals(true, consecutiveLetters.solve("v"));
     }
 
     @Test
