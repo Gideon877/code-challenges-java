@@ -10,14 +10,12 @@ public class Pangram {
 
     public boolean isPangram(String sentence) {
         sentence = sentence.replaceAll("\\s", "").toLowerCase();
-//        sentence = sentence.replaceAll("\\'", "");
         sentence = sentence.replaceAll("[^a-zA-Z ]", "");
         char sortedLetters[] = sentence.toCharArray();
         Arrays.sort(sortedLetters);
         List<Character> alphabets = sortAlphabets(sortedLetters);
         return alphabets.size() == 26;
     }
-
 
     private List<Character> sortAlphabets(char[] sortedLetters) {
         List<Character> alphabets = new ArrayList<>();
