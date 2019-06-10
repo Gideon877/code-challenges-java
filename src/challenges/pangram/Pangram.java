@@ -13,11 +13,11 @@ public class Pangram {
         sentence = sentence.replaceAll("[^a-zA-Z ]", "");
         char sortedLetters[] = sentence.toCharArray();
         Arrays.sort(sortedLetters);
-        List<Character> alphabets = sortAlphabets(sortedLetters);
+        List<Character> alphabets = sortCharacters(sortedLetters);
         return alphabets.size() == 26;
     }
 
-    private List<Character> sortAlphabets(char[] sortedLetters) {
+    private List<Character> sortCharacters(char[] sortedLetters) {
         List<Character> alphabets = new ArrayList<>();
         for (char letter : sortedLetters) {
             if(!alphabets.contains(letter)) {
