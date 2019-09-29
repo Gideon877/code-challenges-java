@@ -1,6 +1,4 @@
 package challenges.consecutive.letters;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ConsecutiveLetters {

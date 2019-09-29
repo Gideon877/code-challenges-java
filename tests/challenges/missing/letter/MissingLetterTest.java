@@ -9,7 +9,8 @@ class MissingLetterTest {
     MissingLetter missingLetter = new MissingLetter();
     @Test
     void shouldReturnTrue() {
-        assertEquals("", missingLetter.check("defcg"));        assertEquals("E", missingLetter.check("abcdf"));
+        assertEquals("", missingLetter.check("defcg"));
+        assertEquals("E", missingLetter.check("abcdf"));
         assertEquals("", missingLetter.check("mnopq"));
         assertEquals("", missingLetter.check("rstuvw"));
 

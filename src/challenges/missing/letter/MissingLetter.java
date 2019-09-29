@@ -15,7 +15,6 @@ public class MissingLetter extends ConsecutiveLetters {
                 if (sortedLetters[i] - sortedLetters[i - 1] != 1) {
                     String index = String.valueOf(sortedLetters[i]);
                     Alphabets current = Alphabets.valueOf(index);
-
                     int currentIndex = alphabetsList.indexOf(current) - 1;
                     return String.valueOf(alphabetsList.get(currentIndex));
                 }
