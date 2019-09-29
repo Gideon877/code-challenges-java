@@ -1,5 +1,6 @@
-package challenges.missing.letter;
+package challenges.order;
 
+import challenges.order.Order;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

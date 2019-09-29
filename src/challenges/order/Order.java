@@ -1,4 +1,4 @@
-package challenges.missing.letter;
+package challenges.order;
 
 public class Order {
 
